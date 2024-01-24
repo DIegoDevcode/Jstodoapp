@@ -33,7 +33,7 @@ body{
 }
 .btn,.todo-btn{
     width: 120px; 
-    background-color: #38bdf8;
+    background-color: #ff2d2d;
     cursor: pointer;
 }
 .todo-list li{
@@ -50,5 +50,5 @@ body{
     width: 100px;
 }
 .green{
-    background-color: green;
+    background-color: #38bdf8;
 }
