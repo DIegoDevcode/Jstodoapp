@@ -27,7 +27,7 @@ todoList.addEventListener('click', (e)=>{
     if (e.target.classList.contains('green')) {
         let lineTrough = e.target.parentNode.previousElementSibling;
         lineTrough.style.textDecoration = 'line-through';
-        lineTrough.style.color = 'green';
+        lineTrough.style.color = 'yellow';
     }
     if (e.target.classList.contains('red')) {
         let removeElem = e.target.parentNode.parentNode;
